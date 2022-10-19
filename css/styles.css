@@ -47,19 +47,30 @@ h1 {
 h2 {
   text-align: center;
 }
+
 .container{
   display: flex;
+  justify-content: space-between;
 }
 .container div{
   border: 1px #ccc solid;
   padding:10px;
+  background-color: rgba(187,187,187,.50);
 }
-.box-1 {
+.container img{
+  height: 100px;
+  width: auto;
+}
+.box-1{
+  flex:1;
+  
+
+}
+.box-2{
+  flex:1;
   
 }
-.box-2 {
-
-}
-.box-3 {
-
+.box-3{
+  flex:1;
+  
 }
