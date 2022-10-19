@@ -7,3 +7,8 @@
   margin-bottom: 10px 
   
 }
+.petpic {
+  float: left;
+  width: 10%;
+  height: auto;
+}
