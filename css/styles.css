@@ -1,6 +1,6 @@
-.pet-column {
+.Pet-Column {
   border:1px;
-  text-align: right;
+  text-align: center;
   font-size: 18px;
   border: black;
   background-color: lightblue;
@@ -10,8 +10,8 @@
   width: 25%;   
   float: right;
 }
-.petpic {
-  width: 25%;
+.Petpic {
+  width: 50px;
   height: auto;
   display: block;
 }
