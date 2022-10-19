@@ -1,19 +1,27 @@
 .Pet-Column {
-  border:1px;
-  text-align: center;
+  text-align: left;
   font-size: 18px;
-  border: black;
-  background-color: lightblue;
   margin: auto;
+  border: 1px black;
+  padding: 10px;
+  background-color: lightblue;
+  box-sizing: border-box;
   margin-top: 10px;
   margin-bottom: 10px;
   width: 25%;   
-  float: right;
+  float: right
+
 }
-.Petpic {
-  width: 50px;
+.pet-coulmn h1 {
+  text-align: center;
+}
+.Pet-Column .Petpic {
+  width: 75px;
   height: auto;
   display: block;
+  float: center;
+  padding: 10px;
+ 
 }
 h1 {
   text-align: center;
