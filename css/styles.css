@@ -6,7 +6,7 @@ html {
 .navbar {
   text-align: center;
   font-size: 18px;
-  margin: 100;
+  margin: 75;
   padding: 5px;
   background-color: rgba(119,117,150,.25);
   margin-top: auto;
@@ -34,8 +34,9 @@ html {
 
 }
 p{
-  background-color:rgba(119,117,150,.25);
+  background-color:rgba(119,117,150);
   font-size:24px;
+  
 }
 .pet-coulmn h1 {
   text-align: center;
