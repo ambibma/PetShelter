@@ -77,9 +77,22 @@ h3{
   flex:1;
   
 }
-
-.pappy{
+.about{
+  display:flex;
+  flex-direction: column;
+  background-color: rgba(187,187,187,.50);
+  justify-content: center;
+  color: black;
   text-align: center;
-  width:200px;
-  height: auto;
+  font-size: 19px;
 }
+.about .pappy{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:500px;
+  height: auto;
+  float: center;
+  text-align: center;
+}
+
