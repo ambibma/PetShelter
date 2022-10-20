@@ -1,19 +1,23 @@
 html {
   background-image: url("file:///C:/users/ambi/Desktop/PetShelter/imgs/background.jpg");
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .navbar {
   text-align: center;
   font-size: 18px;
-  margin: auto;
+  margin: 100;
   padding: 5px;
   background-color: rgba(119,117,150,.25);
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: auto;
+  margin-bottom: auto;
   box-sizing: border-box;
   float: center;
+}
+.navbar img{
+  text-align: center;
+  height: 200px;
+  width: auto;
 }
 .Pet-Column {
   text-align: left;
@@ -28,6 +32,10 @@ html {
   width: 25%;   
   float: right;
 
+}
+p{
+  background-color:rgba(119,117,150,.25);
+  font-size:24px;
 }
 .pet-coulmn h1 {
   text-align: center;
